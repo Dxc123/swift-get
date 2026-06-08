@@ -1,8 +1,35 @@
 .DS_Store
-/.build
-/Packages
+
+# Xcode
 xcuserdata/
 DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+Packages/
+# Package.pins
+# Package.resolved
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# CocoaPods
+# Pods/
+# *.xcworkspace
+
+# Carthage
+# Carthage/Checkouts
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
 .netrc

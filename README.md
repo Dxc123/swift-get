@@ -1,5 +1,7 @@
 # swift-get
 
+swift项目脚手架
+
 `swift-get` is a Swift CLI that scaffolds UIKit iOS projects and feature modules.
 
 ## Current Commands
